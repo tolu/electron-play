@@ -1,10 +1,8 @@
-'use strict';
+/// <reference path='../typings/main.d.ts' />
+import {app, BrowserWindow} from 'electron';
 
-const electron = require('electron');
-// Module to control application life.
-const app = electron.app;
-// Module to create native browser window.
-const BrowserWindow = electron.BrowserWindow;
+// app: Module to control application life.
+// BrowserWindow: Module to create native browser window.
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
