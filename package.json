@@ -1,0 +1,23 @@
+{
+  "name": "electron-play",
+  "version": "1.0.0",
+  "description": "trying out electron shell",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tolu/electron-play.git"
+  },
+  "author": "Tobias Lundin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tolu/electron-play/issues"
+  },
+  "homepage": "https://github.com/tolu/electron-play#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  }
+}
